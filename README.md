@@ -15,7 +15,7 @@ The system combines multiple AI models to detect potential drowning incidents by
 
 ⚠️ **This is a research prototype using synthetic datasets for demonstration purposes only.**
 - Datasets are artificially generated and do not represent real-world scenarios
-- This system is NOT intended for actual drowning prevention or emergency response
+- This system is NOT intended for actual drowning prevention or emergency response only for prototyping.
 - Always use proper safety equipment and supervision near water
 
 ## 🏗️ System Architecture
