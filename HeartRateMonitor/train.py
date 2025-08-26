@@ -25,6 +25,7 @@ def train_model(model, X_train, y_train, epochs=50, lr=0.001, batch_size=32):
     dataset = TensorDataset(X_train, y_train)
     loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
+    #Training loop
     for epoch in range(epochs):
         model.train()
         total_loss = 0
@@ -39,6 +40,7 @@ def train_model(model, X_train, y_train, epochs=50, lr=0.001, batch_size=32):
 
     save_model(model)
 
+#2nd Training Loop(Fine-Tuning)
 def fine_tune_model(model, X_finetune, y_finetune, epochs=20, lr=0.0005, batch_size=16):
     """Fine-tune pre-trained model with new data"""
     criterion = nn.BCELoss()
