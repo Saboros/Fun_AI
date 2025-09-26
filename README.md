@@ -37,7 +37,7 @@ The fusion model was refactored for improved code quality and maintainability wi
 
 ## 📁 Dataset Requirements
 - Dataset format must align with the provided synthetic dataset structure
-- See `data/` directory for example format
+
 
 ## 🚀 Getting Started
 1. Install requirements: `pip install -r requirements.txt`
